@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #eee !important;
 }
 
 a {
@@ -13,4 +14,20 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 3.25rem;
+  width: 12.25rem;
+  margin-top: 1.25rem;
+  margin-left: 1.5625rem;
+  text-shadow: 0.2244rem 0.2244rem 0.3744rem rgba(136, 160, 183, 0.25);
+  background-color: #000000;
+  color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  text-transform: uppercase;
+  font-weight: bold !important;
 }
